@@ -1,4 +1,0 @@
-# ninja log v5
-3	1768	1616751385	CMakeFiles/key-lib.dir/src/main/cpp/key-lib.cpp.o	f7813ab3b6c5c014
-1	2102	1616751385	CMakeFiles/key-lib.dir/src/main/cpp/MD5.cpp.o	74df0158315486db
-2102	2332	1616751385	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libkey-lib.so	28f572bda417b94

@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/release/x86'
-ninja: no work to do.

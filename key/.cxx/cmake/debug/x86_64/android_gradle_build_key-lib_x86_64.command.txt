@@ -1,7 +1,0 @@
-Executable : /Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/x86_64
-key-lib
-jvmArgs : 
-

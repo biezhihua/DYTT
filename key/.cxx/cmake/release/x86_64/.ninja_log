@@ -1,4 +1,0 @@
-# ninja log v5
-1	1517	1616751391	CMakeFiles/key-lib.dir/src/main/cpp/key-lib.cpp.o	8953ef40d3fc4329
-0	1767	1616751392	CMakeFiles/key-lib.dir/src/main/cpp/MD5.cpp.o	3b7c72f0af63321d
-1768	1938	1616751392	../../../../build/intermediates/cmake/release/obj/x86_64/libkey-lib.so	628e0e37a98c0ba4
