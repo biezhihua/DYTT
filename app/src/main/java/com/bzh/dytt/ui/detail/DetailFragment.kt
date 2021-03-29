@@ -109,7 +109,7 @@ class DetailFragment : BaseFragment(), Injectable {
             viewModel.paramsLiveData.value = movieDetail
             if (movieDetail != null && activity != null) {
                 val actionBar = (activity as AppCompatActivity).supportActionBar
-                actionBar?.title = getSimpleTitle(movieDetail.name)
+                actionBar?.title = movieDetail.name?.let { getSimpleTitle(it) }
             }
         }
 
@@ -177,7 +177,7 @@ class DetailFragment : BaseFragment(), Injectable {
 class InnerDialogFragment : androidx.fragment.app.DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val builder = AlertDialog.Builder(activity!!)
+        val builder = AlertDialog.Builder(requireActivity())
         builder.setMessage(R.string.un_install_xunlei_label).setPositiveButton(R.string.ok, null)
         return builder.create()
     }

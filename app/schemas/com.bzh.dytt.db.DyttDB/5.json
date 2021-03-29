@@ -2,11 +2,11 @@
   "formatVersion": 1,
   "database": {
     "version": 5,
-    "identityHash": "1fdde7b92ce9d7ed66ccec44dfcd7f76",
+    "identityHash": "45ba4b76e26fa4be65ed1d2193c1f94d",
     "entities": [
       {
         "tableName": "movie_detail",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `categoryId` INTEGER NOT NULL, `name` TEXT NOT NULL, `publishTime` TEXT NOT NULL, `homePicUrl` TEXT, `pics` TEXT, `downloadUrl` TEXT, `content` TEXT, `isPrefect` INTEGER NOT NULL, PRIMARY KEY(`id`, `categoryId`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `categoryId` INTEGER NOT NULL, `name` TEXT, `publishTime` TEXT, `homePicUrl` TEXT, `pics` TEXT, `downloadUrl` TEXT, `content` TEXT, `isPrefect` INTEGER NOT NULL, PRIMARY KEY(`id`, `categoryId`))",
         "fields": [
           {
             "fieldPath": "id",
@@ -24,13 +24,13 @@
             "fieldPath": "name",
             "columnName": "name",
             "affinity": "TEXT",
-            "notNull": true
+            "notNull": false
           },
           {
             "fieldPath": "publishTime",
             "columnName": "publishTime",
             "affinity": "TEXT",
-            "notNull": true
+            "notNull": false
           },
           {
             "fieldPath": "homePicUrl",
@@ -74,9 +74,10 @@
         "foreignKeys": []
       }
     ],
+    "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"1fdde7b92ce9d7ed66ccec44dfcd7f76\")"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '45ba4b76e26fa4be65ed1d2193c1f94d')"
     ]
   }
 }

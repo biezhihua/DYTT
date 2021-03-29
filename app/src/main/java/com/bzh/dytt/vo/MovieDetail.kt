@@ -8,8 +8,8 @@ import android.os.Parcelable
 data class MovieDetail(
         val id: Int,
         var categoryId: Int,
-        val name: String,
-        val publishTime: String,
+        val name: String?,
+        val publishTime: String?,
         val homePicUrl: String?,
         val pics: String?,
         val downloadUrl: String?,
