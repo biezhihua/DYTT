@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "/Users/biezhihua/StudySpace/DYTT/key/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/biezhihua/Software/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"key-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "key-lib",
+			"buildCommand" : "/Users/biezhihua/Software/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86 --target key-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dkey_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/biezhihua/StudySpace/DYTT/key/src/main/cpp/MD5.cpp",
+					"workingDirectory" : "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android19 --gcc-toolchain=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dkey_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/biezhihua/StudySpace/DYTT/key/src/main/cpp/key-lib.cpp",
+					"workingDirectory" : "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/biezhihua/StudySpace/DYTT/key/build/intermediates/cmake/debug/obj/x86/libkey-lib.so",
+			"toolchain" : "10568653324856872109"
+		}
+	},
+	"toolchains" : 
+	{
+		"10568653324856872109" : 
+		{
+			"cCompilerExecutable" : "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

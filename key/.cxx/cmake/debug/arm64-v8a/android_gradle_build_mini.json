@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/biezhihua/StudySpace/DYTTKEY/key/CMakeLists.txt",
+    "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "key-lib-Debug-arm64-v8a": {
+      "artifactName": "key-lib",
+      "buildCommand": "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/arm64-v8a\" key-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/biezhihua/StudySpace/DYTTKEY/key/build/intermediates/cmake/debug/obj/arm64-v8a/libkey-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dkey_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/key-lib.dir/src/main/cpp/MD5.cpp.o -c /Users/biezhihua/StudySpace/DYTTKEY/key/src/main/cpp/MD5.cpp",
+  "file": "/Users/biezhihua/StudySpace/DYTTKEY/key/src/main/cpp/MD5.cpp"
+},
+
+{
+  "directory": "/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dkey_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/key-lib.dir/src/main/cpp/key-lib.cpp.o -c /Users/biezhihua/StudySpace/DYTTKEY/key/src/main/cpp/key-lib.cpp",
+  "file": "/Users/biezhihua/StudySpace/DYTTKEY/key/src/main/cpp/key-lib.cpp"
+}
+]

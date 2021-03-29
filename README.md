@@ -2,6 +2,10 @@
 
 电影天堂是电影天堂（网站版）的第三方客户端，一切资源都从该网站获取．
 
+# 免责声明
+
+提供解码Key，禁止商用。
+
 # Technology
 
 项目架构使用了[Android Architecture Compontens](https://developer.android.com/topic/libraries/architecture/index.html)，其中主要涉及到的包括：

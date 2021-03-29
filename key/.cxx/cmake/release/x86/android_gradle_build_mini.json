@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/biezhihua/StudySpace/DYTTKEY/key/CMakeLists.txt",
+    "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "key-lib-Release-x86": {
+      "artifactName": "key-lib",
+      "buildCommand": "/Users/biezhihua/Software/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/biezhihua/StudySpace/DYTTKEY/key/.cxx/cmake/release/x86\" key-lib",
+      "abi": "x86",
+      "output": "/Users/biezhihua/StudySpace/DYTTKEY/key/build/intermediates/cmake/release/obj/x86/libkey-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

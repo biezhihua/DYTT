@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/biezhihua/StudySpace/DYTT",
+      "sdkFolder": "/Users/biezhihua/Software/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/biezhihua/StudySpace/DYTT/key/build/intermediates",
+      "gradleModulePathName": ":key",
+      "moduleRootFolder": "/Users/biezhihua/StudySpace/DYTT/key",
+      "makeFile": "/Users/biezhihua/StudySpace/DYTT/key/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/biezhihua/StudySpace/DYTT/.cxx",
+      "cxxFolder": "/Users/biezhihua/StudySpace/DYTT/key/.cxx",
+      "ndkFolder": "/Users/biezhihua/Software/Android/sdk/ndk/21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/biezhihua/StudySpace/DYTT/key/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/biezhihua/StudySpace/DYTT/key/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86",
+  "jsonFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86",
+  "objFolder": "/Users/biezhihua/StudySpace/DYTT/key/build/intermediates/cmake/debug/obj/x86",
+  "buildCommandFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/build_command.txt",
+  "buildOutputFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/build_output.txt",
+  "modelOutputFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/build_generation_state.json",
+    "cacheKeyFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cxx/debug/x86/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/biezhihua/StudySpace/DYTT/key/.cxx/cmake/debug/x86/compile_commands.json"
+}
